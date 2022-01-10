@@ -1,0 +1,74 @@
+1) Defina Inteligência. O que é um comportamento inteligente de uma máquina?
+    Inteligência é a capacidade de aprender algo ( seja ação ou conceito ) depois de um período de aprendizado. O comportamento inteligente de uma máquina pode ser caracterizado quando ela aprende a reconhecer padrões e se torna capaz de tomar decisões corretas, ditas inteligentes, a cerca daquilo que as foi proposta.
+
+2) Em que consiste o “Teste de Turing?”
+    O teste de Turing, também conhecido como jogo da imitação, atua na área da Linguagem natural e tem a seguinte proposta:
+        Uma máquina deve conversar com um interrogador humano, e ao final deve convence-lo de que também é humano. Ou seja,  o computador deve entender exatamente o que está sendo demandado dele, mesmo sem instruções diretamente programadas, e responder de forma a imitar a linguagem natural de uma conversação humana.
+
+3) O que você entende por Inteligência Artificial? Contraste sua resposta com as quatro categorias “Sistemas que pensam como os humanos”, “Sistemas que agem como os humanos”,
+“Sistemas que pensam racionalmente” e “Sistemas que agem racionalmente”.
+    Inteligência Artificial é um programa de computador capaz de aprender a resolver problemas, pensar e tomar decisões assertivas similares as de um ser humano real. Tais inteligencias podem ser aplicadas em sistemas do mundo real afim de solucionarem de forma rápida e assertiva problemas humanos.
+
+4) 
+    Sistema de controle de espaçonave:
+        - Medida de desempenho : tempo e qualidade de viajem
+        - Ambiente: Espaço
+        - Atuadores: Motores, painel de controle, cameras e armas
+        - Sensores: GPS e radar
+
+    Um engenho de busca para a web:
+        - Medida de desempenho: tempo e quantidade de conteudo obtido
+        - Ambiente: web
+        - Atuadores: navegador e Sistema de gerenciamente do banco de dados
+        - Sensores: latência
+    
+    O futebol de robôs:
+        - Medida de desempenho: inteligencia dos jogadores
+        - Ambiente: campo de futebol
+        - Atuadores: ribis
+        - Sensores: cameras e infra-vermelho
+
+5)
+    A) Imagem em anexo
+    B) A > C > D >  G
+    C) 
+        I. A > C > E > G
+        II. A > C > E > G
+        III. A > C > E > G
+        IV. A > B > D > G
+        V. A > C > E > G
+        VI. A > C > E > G
+
+6)
+    estado inicial: O mapa totalmente em branco
+    teste de objetivo: garantir que nenhuma região esteja colorida da mesma cor de uma outra região adjacente.
+    função sucessor: colorir região com uma cor ainda não existente nas regiões adjacentes
+    função de custo: quantas regioes foram coloridas para cada cor
+
+7)
+    i- sobre(A,B) & sobre(B,Mesa) & livre(A) & braço-livre 
+    ii- todas as configurações possiveis de organização dos blocos com a garra
+    iii- 
+        1º : sobre(A,B) & sobre(B,Mesa) & livre(A) & braço-livre 
+        2º : segurando(A) & livre(B) & sobre(B,Mesa)
+        3º : sobre(A,Mesa) & sobre(B,Mesa) & livre(A) & livre(B)  & braço-livre 
+        4º : segurando(B) & livre(A) & sobre(A,Mesa)
+        5º : sobre(B,A) & sobre(A,Mesa) & livre(B) & braço-livre
+    iv- 
+        1º: Pegar e soltar o mesmo bloco na mesa
+        2º: Pegar e soltar o mesmo bloco encima de outro bloco
+        3º: Pegar e soltar os blocos na mesa    
+    v- A busca em profundidade se adequa melhor ao problema pelo simples fato de existirem ciclos infinitos no espaço de busca, o que causaria um impacto muito negativo na busca.
+
+
+8)
+    a) podemos utilizar um vetor de 4 posições = [a,b,d,e], onde:
+        a => representa a quantidade de missionários de um lado do rio
+        b => representa a quantidade de canibais de um lado do rio
+        c => representa a quantidade de canibais do outro lado do rio
+        d => representa a quantidade de canibais do outro lado do rio
+
+    b)
+        estado inicial: [3,3,0,0]
+        meta: [0,0,3,3]
+        operadores: adição ou subtração de canibais/missionários em alguma das posições
