@@ -8,5 +8,5 @@
 [- - - X]
 [- X - -]
 
-
+Execution Time = 5.555152893066406e-05
 Solutions = 2

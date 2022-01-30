@@ -1,0 +1,4 @@
+[X]
+
+Execution Time = 1.2636184692382812e-05
+Solutions = 1

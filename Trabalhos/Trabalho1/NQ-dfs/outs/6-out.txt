@@ -26,5 +26,5 @@
 [- - - X - -]
 [- X - - - -]
 
-
+Execution Time = 0.0005991458892822266
 Solutions = 4

@@ -1,4 +1,4 @@
-
+import time
 
 inFile = open("in.txt",'r')
 outFile = ""
@@ -77,8 +77,10 @@ def main():
         outFileStr = "./outs/"+str(n)+'-out.txt'
         outFile = open(outFileStr,'w')
         
+        start = time.time()
         nRainhas(tabuleiro, 0)
-        
+        end = time.time()
+        outFile.write("Execution Time = "+str((end - start))) 
         outFile.write('\nSolutions = '+str(solutionsCount)+'\n')
         
         

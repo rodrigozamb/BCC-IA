@@ -58,5 +58,5 @@
 [- - - X -]
 [- X - - -]
 
-
+Execution Time = 0.00020694732666015625
 Solutions = 10
